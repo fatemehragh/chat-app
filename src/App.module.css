@@ -1,3 +1,8 @@
+
 .App{
-    background-color: grey;
+    width: 1200px;
+    height: 150px;
+    display: grid;
+    grid-template-rows: 8fr;
+    grid-template-columns: 2fr 3fr;
 }

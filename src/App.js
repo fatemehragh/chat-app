@@ -1,26 +1,32 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import MessageView
+    from './components/MessageView/MessageView';
+import Sidebar
+    from './components/Sidebar/Sidebar';
+import styles from './App.module.css'
+import {library} from '@fortawesome/fontawesome-svg-core'
+import {
+    faCheckSquare,
+    faCoffee,
+    faPaperclip,
+    faSmile,
+    faMicrophone,
+    faAlignJustify,
+    faPhone,
+    faSearch,
+    faEllipsisV,
+    faUser,
+    faUserFriends,faBullhorn,faUserAlt,faPhoneAlt,faCog,faMoon} from '@fortawesome/free-solid-svg-icons'
+
+library.add(faCheckSquare, faCoffee, faPaperclip, faSmile, faMicrophone, faAlignJustify, faPhone, faSearch, faEllipsisV, faUser, faUserFriends,faBullhorn,faUserAlt,faPhoneAlt,faCog,faMoon);
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className={styles.App}>
+            <Sidebar/>
+            <MessageView/>
+        </div>
+    );
 }
 
 export default App;

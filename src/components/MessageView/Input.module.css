@@ -1,0 +1,40 @@
+.Input{
+    background-color: #254e58;
+    border-top: 1px solid #14292f;
+    position: relative;
+}
+.Input input{
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    height: 35%;
+    background-color:inherit;
+    border: none;
+    font-size: 24px;
+    color: #fff;
+}
+input:focus{
+    outline: none;
+}
+.icon{
+    color: #bab2b5;
+    font-size: 28px;
+    position: absolute;
+   top: 20px;
+    cursor: pointer;
+}
+.icon:hover{
+    color: #fff;
+}
+
+.paperclip{
+left:20px;
+}
+.smile{
+    right: 20px;
+}
+.mic{
+    right: 70px;
+}

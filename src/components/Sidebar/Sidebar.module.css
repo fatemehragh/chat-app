@@ -1,0 +1,14 @@
+.Sidebar{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8,1fr);
+    background-color: #254e58;
+    border-right: 1px solid #14292f;
+    overflow: scroll;
+    position: relative;
+}
+.messageList{
+    position: absolute;
+    top: 80px;
+}
+

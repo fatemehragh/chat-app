@@ -1,0 +1,72 @@
+.contact{
+    background-color: #254e58;
+    border-bottom: 1px solid rgba(20, 41, 47, 0.89);
+    position: relative;
+    z-index: 1;
+}
+.icon{
+    color: #bab2b5;
+    font-size: 24px;
+    position: absolute;
+    top: 20px;
+    cursor: pointer;
+}
+.dots{
+   right: 20px;
+}
+.user{
+right: 60px;
+}
+.magnifier{
+right: 100px;
+}
+.phone{
+right: 140px;
+}
+.name{
+    font-size: 26px;
+    color: #ffffff;
+    margin-left: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.date{
+    color: #bab2b5;
+    font-size: 18px;
+    margin-left: 20px;
+    top: 25px;
+    position: absolute;
+}
+.icon:hover{
+    color: #fff;
+}
+
+.options{
+    position : absolute;
+    top      : 72px;
+    left     : 495px;
+    width    : 30%;
+    height   : 470%;
+    z-index  : 10;
+    background-color: #254e58;
+    border-radius: 4px;
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.options div{
+    padding-left: 7px;
+    height: 47px;
+}
+.options div:hover{
+    background-color: #244951;
+}
+.backdrop{
+    width:1200px;
+    height: 720px;
+    z-index: 1;
+    position:fixed;
+    background-color: rgba(0,0,0,0);
+}
